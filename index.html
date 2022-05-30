@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers\1.jpg" alt="1">
+                    <span>Kahaani - Pritam</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\2.jpg" alt="1">
+                    <span>Chaand Baaliyan</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\3.jpg" alt="1">
+                    <span>Badshah - Coka Cola</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\4.jpg" alt="1">
+                    <span>Bhool Bhulaiya 2 - Pritam</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\5.jpg" alt="1">
+                    <span>Blue Eyes - Yo Yo Honey Singh</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\6.jpg" alt="1">
+                    <span>Namastute - Seedhe Maut</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\7.jpg" alt="1">
+                    <span>Shatranj Ka Kamaal - ChessBase India</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\8.jpg" alt="1">
+                    <span>Let Me love You - Justin Bieber</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\9.jpg" alt="1">
+                    <span>Raabta - Arijit Singh</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\10.jpg" alt="1">
+                    <span>Ishq Di Baajjiyan - Diljit Dosanjh</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i
+                                class="fa-solid songItemPlay a-circle-play"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42 px" alt="" id="gif"> Let Me Love You - Justin Bieber
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/4b929d7c85.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
